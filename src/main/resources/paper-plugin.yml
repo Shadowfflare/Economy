@@ -1,0 +1,17 @@
+name: Economy
+version: ${project.version}
+description: A simple gold based Economy plugin that just works.
+author: Shadowflare
+api-version: '1.20'
+load: STARTUP
+main: org.shadowflare.economy.Economy
+depend: [Vault]
+permissions:
+  chestshop.adminshop:
+    default: op
+  chestshop.reload:
+    default: op
+  chestshop.revenue.view:
+    default: op
+  chestshop.revenue.get:
+    default: op

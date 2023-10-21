@@ -1,0 +1,18 @@
+# Should the plugin check for updated? (default: true)
+updateCheck: true
+# Valid language are:
+# German: de_DE
+# English: en_US
+language: "en_US"
+# vanilla: When set to vanilla, the currency is set to vanilla.
+# economy: When set to economy, it will be synchronized with the economy plugin. Vault is required.
+mode: "vanilla"
+
+# Set the currency when set to "vanilla" mode.
+currency: "EMERALD"
+
+# The cost of creating a shop. (Int)
+creationCost: 0
+
+# Taxes will be charged on the bought or sell of the property. % designation. (Int)
+tax: 0
